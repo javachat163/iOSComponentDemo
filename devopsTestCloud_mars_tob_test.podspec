@@ -18,11 +18,11 @@ TODO: Add long description of the pod here.
   end 
   s.subspec 'AAS' do |ss| 
     ss.source_files = 'DevopsTestModule/DevopsTestModule/AA/*.{h,m}' 
-    ss.dependency 'devopsTestCloud_mars_tob/Core'
+    ss.dependency 'devopsTestCloud_mars_tob_test/Core'
   end
   s.subspec 'BBS' do |ss|
     ss.source_files = 'DevopsTestModule/DevopsTestModule/BB/*.{h,m}' 
-    ss.dependency 'devopsTestCloud_mars_tob/Core'
+    ss.dependency 'devopsTestCloud_mars_tob_test/Core'
   end
   s.subspec 'ModuleInterface' do |ss|
     ss.subspec 'MIA' do |sss|
