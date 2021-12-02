@@ -10,7 +10,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mars' => 'mars@bytedance.com' }
   s.ios.deployment_target = '8.0'
-  s.source 	= { :git => 'git@github.com:bytedance-mars/iOSComponentDemo.git'}
+  s.source 	= { :git => 'git@github.com:javachat163/iOSComponentDemo.git'}
   s.source_files = 'DevopsTestModule/DevopsTestModule/**/*.{h,m}' 
   s.default_subspecs = 'Core'
   s.subspec 'Core' do |ss|
